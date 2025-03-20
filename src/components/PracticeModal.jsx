@@ -94,7 +94,7 @@ export default function PracticeModal({ show, handleClose }) {
                 </div>
                 <h2 className="mb-4">Current Character: {currentChar}</h2>
                 <Image 
-                    src={`SignLanguage/src/assets/${currentChar}.png`}
+                    src={`./src/assets/${currentChar}.png`}
                     alt={`Sign for ${currentChar}`}
                     fluid
                     style={{ maxHeight: '300px', objectFit: 'contain' }}
