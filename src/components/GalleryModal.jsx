@@ -55,7 +55,7 @@ export default function GalleryModal({ show, handleClose }) {
                                 <Col key={char} xs={2} className="border p-3 text-center">
                                     <div className="mb-2 h4">{char}</div>
                                     <Image 
-                                        src={`./src/assets/${char}.png`}
+                                        src={`./blob/master/src/assets/${char}.png`}
                                         alt={`Sign for ${char}`}
                                         fluid
                                         style={{ maxHeight: '150px', objectFit: 'contain' }}
